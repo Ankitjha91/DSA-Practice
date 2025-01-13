@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int number;
 
-    number = -100;
+    number = -50;
 
     if (number >= 0) {
  cout<< number << " is a positive number"<< endl;
