@@ -7,7 +7,7 @@ pair<int, int> countOddEven(vector<int>& arr) {
    for (int i = 0; i < arr.size(); i++) {
      
       // checking if the element is even
-      if (arr[i] % 2 == 0) {
+      if (arr[i] % 4 == 0) {
          countEven++;
       }
      
