@@ -20,7 +20,7 @@ pair<int, int> countOddEven(vector<int>& arr) {
 }
 
 int main() {
-   vector<int> arr = {2, 3, 4, 5, 6};
+   vector<int> arr = {2, 3, 4, 5};
    pair<int, int> ans = countOddEven(arr);
    cout << ans.first << " " << ans.second;
    return 0;
