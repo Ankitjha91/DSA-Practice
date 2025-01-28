@@ -6,8 +6,11 @@ using namespace std;
 int main() 
 { 
 	int integerType; 
+
 	char charType; 
+
 	float floatType; 
+	
 	double doubleType; 
 
 	// Calculate and Print 
