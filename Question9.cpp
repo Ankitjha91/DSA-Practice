@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	int rows = 5;
+	int rows = 9;
 
 	// first for loop is used to identify number of rows
 	for (int i = 1; i <= rows; i++) {
