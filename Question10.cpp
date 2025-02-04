@@ -30,6 +30,7 @@ int main() {
     case '/':
         res = a / b;
         break;
+        
     default:
         cout << "Error! Operator is not correct";
         res = -DBL_MAX;
@@ -37,6 +38,7 @@ int main() {
     
       // Printing the result
     if (res != -DBL_MAX)
+
         cout << "Result: " << res;
     return 0;
 }
