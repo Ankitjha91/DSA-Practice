@@ -18,9 +18,13 @@ int main() {
     // Perform the operation corresponding to the
     //  given operator
     if (op == '+')
+
         res = a + b;
+
     else if (op == '-')
+    
         res = a - b;
+
     else if (op == '*')
         res = a * b;
     else if (op == '/')
