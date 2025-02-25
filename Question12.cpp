@@ -21,14 +21,17 @@ int main() {
 
         res = a + b;
 
+
     else if (op == '-')
     
         res = a - b;
+
 
     else if (op == '*')
         res = a * b;
     else if (op == '/')
         res = a / b;
+        
     else {
         cout << "Error! Operator is not correct";
         res = -DBL_MAX;
