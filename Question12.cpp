@@ -34,9 +34,9 @@ int main() {
         
     else {
         cout << "Error! Operator is not correct";
+        
         res = -DBL_MAX;
     }
-
     if (res != -DBL_MAX)
         cout << "Result: " << res;
     return 0;
