@@ -28,9 +28,10 @@ int main() {
     
         res = a - b;
 
-
     else if (op == '*')
+
         res = a * b;
+        
     else if (op == '/')
         res = a / b;
         
